@@ -12,7 +12,7 @@ $ComputerList += 1..255 | % {"192.168.$IP.$_"}
 
 }
 
-$ErrorActionPreference = SilentlyContinue
+$ErrorActionPreference = "SilentlyContinue"
 
 foreach($Computer in $ComputerList){
     if(Test-Connection -ComputerName $Computer -Count 1){
