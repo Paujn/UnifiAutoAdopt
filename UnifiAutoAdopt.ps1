@@ -1,4 +1,6 @@
-﻿$Password = "password"
+if(!(Get-Module Posh-SSH)){Install-Module Posh-SSH}
+
+$Password = "password"
 $User = "user"
 $Command = "mca-cli-op set-inform http://your.domain:8080/inform"
 
