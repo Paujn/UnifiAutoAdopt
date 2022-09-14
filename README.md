@@ -1,2 +1,2 @@
 # UnifiAutoInformer
-Script for automatic adoption of devices inside a network.
+Script for automatic adoption of Unifi devices inside a network.
